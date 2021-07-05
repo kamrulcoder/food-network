@@ -49,12 +49,12 @@ body {
 }
 
 .hero-area .hero-img {
-    width: 50%;
+    text-align: center;
 }
 
 .hero-area .hero-img img {
     display: inline-block;
-    width: 100%;
+    width: 65%;
 }
 
 .contact-btn {

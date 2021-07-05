@@ -59,14 +59,14 @@ body {
     width: 100%;
 }
 
-.hero-area .contact-btn {
+.contact-btn {
     margin-top: 35px;
 }
 
-.hero-area .contact-btn a {
+.contact-btn a {
     display: inline-block;
     background: linear-gradient(to bottom right, #ff0000 -26%, #ff99cc 93%);
-    padding: 15px 40px;
+    padding: 12px 50px;
     color: #FFF;
     font-weight: 600;
     text-decoration: none;
@@ -80,6 +80,8 @@ body {
 
 .about-area {
     padding: 50px 0;
+    background: url(img/about-bg.png) left top no-repeat;
+    background-size: cover;
 }
 
 .about-img {
@@ -106,6 +108,10 @@ body {
 .about-content h3 span {
     display: inline-block;
     color: #E65F78;
+}
+
+.about-area .contact-btn a {
+    background-image: linear-gradient(to left bottom, #5590e9, #00aef5, #00c2cc, #00cd7d, #96cd19);
 }
 
 /* about-area-end   */
@@ -192,7 +198,23 @@ body {
 
 .footer-area {
     background: #0B0E17;
-    padding: 50px 0;
+    /*! padding: 50px 0; */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-content .img {
+    text-align: center;
+}
+
+.footer-content .img  img {
+    display: inline-block;
+   width:  350px;
+}
+
+.footer-content p {
+    color: #FFF;
 }
 
 

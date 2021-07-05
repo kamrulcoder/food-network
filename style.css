@@ -21,17 +21,17 @@ body {
     padding: 50px 0;
 }
 
-.hero-wrapper {
+.display-flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.hero-wrapper .hero-content {
+.col-half {
     width: 50%;
 }
 
-.hero-wrapper .hero-content  h2 {
+.hero-area .hero-content  h2 {
     font-size: 50px;
     font-weight: 700;
     color: #212529;    
@@ -39,22 +39,21 @@ body {
     margin-bottom: 20px;
 }
 
-.hero-wrapper .hero-content  h2 span {
+.hero-area .hero-content  h2 span {
     color: #5869DA;
-
 }
 
-.hero-wrapper .hero-content p  {
+.hero-area  .hero-content p  {
      font-size: 18px;
      font-weight: 500;
      color: #687385;
 }
 
-.hero-wrapper .hero-img {
+.hero-area .hero-img {
     width: 50%;
 }
 
-.hero-wrapper .hero-img  img {
+.hero-area .hero-img  img {
     display: inline-block;
     width: 100%;
 }
@@ -62,7 +61,6 @@ body {
 .hero-area  .contact-btn  {
     margin-top: 35px ;
 }
-
 
 .hero-area  .contact-btn a {
     display: inline-block;
@@ -72,10 +70,41 @@ body {
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 36px;
-    
-    
+    border-radius: 36px; 
 }
 
-
 /* hero-area-end   */
+
+/* about-area-start  */
+
+.about-area {
+    padding: 50px 0;
+}
+
+.about-img  {
+    text-align: center;
+}
+
+.about-img  img {
+    display: inline-block;
+    width: 400px
+}
+
+.about-content h2 {
+    color: #242526;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about-content  h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.about-content  h3 span {
+    display: inline-block;
+    color: #E65F78;
+}
+
+/* about-area-end   */
